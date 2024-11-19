@@ -79,3 +79,7 @@ def searchMatrix_(matrix, target):
 # print(value)
 
 # print(3|1)
+
+print(3//2)
+print(11 < 3)
+print(divmod(1, 4))
