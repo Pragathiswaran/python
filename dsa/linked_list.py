@@ -44,7 +44,7 @@ class linked_list:
         new_node = node(val)
         current = self.head
 
-        while current and current.data != pos:
+        for _ in range(pos - 1):
             current = current.next
 
         if current is None:
@@ -71,3 +71,5 @@ singly.add(3)
 singly.insert(1, 4)
 singly.insert(5, 5)
 singly.display()
+
+# when you check the current value, then you have to update to the next value
